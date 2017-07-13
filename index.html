@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- The static elements on this site are a bootstrap template. I take no credit for that. I altered the template 
+        for all the interactions that you see (from clicking). -->
+<head>
+    <!-- Jquery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio Item - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- Snana style modifications -->
+    <link href="main.css" rel="stylesheet" type="text/css">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#">Jack Roboski (aka: Gomensnana/Snana/Gomen)</a>
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Portfolio Item Heading -->
+        <h1 class="my-4">My Portfolio (WIP) <br><small> Click small image to make large, click large for that site.
+            <br><small><small>(All click-interactions coded by me, but the static, front-page layout is a bootstrap template)
+                </small></small></small></h1>
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-8">
+                <img class="img-fluid larger" id = "hots2" src="hots2.png" alt="">
+            </div>
+
+            <div class="col-md-4" id = "hots2">
+                <h3 class="my-3">Project Description</h3>
+                <p>This project, though it does not look like much on the front-end, took a long time to make functional. Originally created using 
+                    all JQuery-created DOM elements. Later, had to recreate it to become a node.js app, requiring me to remove my 
+                    main.js file and replace it with html equivalents. It is missing all logic-checking code because I was tired by the time
+                    I finished converting it and making it actually run on the internet. I will add such code after the long weekend.</p>
+                <h3 class="my-3">Project Details</h3>
+                <ul>
+                    <li>node.js</li>
+                    <li>express</li>
+                    <li>MongoDB</li>
+                    <li>Git</li>
+                    <li>Heroku</li>
+                    <li>npm</li>
+                    <li>JavaScript</li>
+                    <li>pug (formerly Jade)</li>
+                    <li>json</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+            <div class="col-md-4" id = "ttproj">
+                <h3 class="my-3">Class Project</h3>
+                <p>  Disclaimer: This is a teamtreehouse.com course project. I did code the back end, and used the Project Details 
+                    items/techniques personally, but they were not my ideas/creativity. Included for evidence of recent learning 
+                    concepts exposure. Interesting project teaching the basics of storing user data in sessions/cookies and 
+                     authenticating users by comparing them to a database. Hosting this on heroku was not taught in this course
+                    but I did on my own because I wanted to show something else that I have learned how to do.</p>
+                <h3 class="my-3">Project Details</h3>
+                <ul>
+                    <li>node.js</li>
+                    <li>express</li>
+                    <li>pug</li>
+                    <li>MongoDB</li>
+                    <li>bcrypt password hashing</li>
+                    <li>user authentication</li>
+                    <li>routing</li>
+                </ul>
+            </div>
+            <div class="col-md-4" id = "mom">
+                <h3 class="my-3">Mother's Day Site</h3>
+                <p>First website I ever created and shared with anyone. I mostly have this here to see how far my WebDev has come 
+                    since May. No templates used, obviously, but still took a little bit. Sublime Text 3 was used and of 
+                    course Github.</p>
+                <h3 class="my-3">Project Details</h3>
+                <ul>
+                    <li>JQuery</li>
+                    <li>JavaScript</li>
+                    <li>GitHub</li>
+                    <li>Very Basic</li>
+                </ul>
+            </div>
+            <div class="col-md-4" id = "lift">
+                <h3 class="my-3">405 Bench Press (testing code)</h3>
+                <p>This is going to be replaced later. Just giving images different text. Me bench pressing 405 pounds without a lift off. </p>
+                <h3 class="my-3">Project Details</h3>
+                <ul>
+                    <li>405 lbs</li>
+                    <li>24" wrist wraps</li>
+                    <li>iPhone 6</li>
+                    <li>Clothing</li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <h3 class="my-4">Related Projects</h3>
+
+        <div class="row">
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+                    <img class="img-fluid smaller" id = "ttproj" src="ttproj.png" alt="">
+                </a>
+            </div>
+            
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+                    <img class="img-fluid smaller" id = "mom" src="heartmom.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+                    <img class="img-fluid smaller" id = "lift" src="lift.PNG" alt="">
+                </a>
+            </div>
+            
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-inverse">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

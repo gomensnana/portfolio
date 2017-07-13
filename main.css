@@ -1,0 +1,18 @@
+img.larger{
+    display: visible;
+}
+img.smaller{
+    display: visible;
+}
+div.col-md-4#hots2{
+    display: visible;
+}
+div.col-md-4#mom{
+    display: none;
+}
+div.col-md-4#lift{
+    display: none;
+}
+div.col-md-4#ttproj{
+    display: none;
+}
