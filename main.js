@@ -36,9 +36,9 @@ $("img").click(function(){
         } else if($this.attr("id") === "hots2"){
             $("div.col-md-4").css("display","none");
             $("div.col-md-4#hots2").fadeIn(1000);
-        } else if($this.attr("id") === "lift"){
+        } else if($this.attr("id") === "resume"){
             $("div.col-md-4").css("display","none");
-            $("div.col-md-4#lift").fadeIn(1000);
+            $("div.col-md-4#resume").fadeIn(1000);
         } else if($this.attr("id") === "ttproj"){
             $("div.col-md-4").css("display","none");
             $("div.col-md-4#ttproj").fadeIn(1000);

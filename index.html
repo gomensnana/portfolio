@@ -51,15 +51,11 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Résumé</a>
+                    </li> -->
+                    
+                    
                 </ul>
             </div>
         </div>
@@ -69,9 +65,7 @@
     <div class="container">
 
         <!-- Portfolio Item Heading -->
-        <h1 class="my-4">My Portfolio (WIP) <br><small> Click small image to make large, click large for that site.
-            <br><small><small>(All click-interactions coded by me, but the static, front-page layout is a bootstrap template)
-                </small></small></small></h1>
+        <h1 class="my-4">Portfolio<br><small><small><small> Click small image to make focus. When enlarged, click image for that site.</small></small></small></h1>
 
         <!-- Portfolio Item Row -->
         <div class="row">
@@ -82,10 +76,11 @@
 
             <div class="col-md-4" id = "hots2">
                 <h3 class="my-3">Project Description</h3>
-                <p>This project, though it does not look like much on the front-end, took a long time to make functional. Originally created using 
-                    all JQuery-created DOM elements. Later, had to recreate it to become a node.js app, requiring me to remove my 
-                    main.js file and replace it with html equivalents. It is missing all logic-checking code because I was tired by the time
-                    I finished converting it and making it actually run on the internet. I will add such code after the long weekend.</p>
+                <p>  This is a data entry form for Heroes of The Storm matches in order to better track KDA ratios among amateur players. Data is stored in a MongoDB. 
+                     <br>Built from scratch, not using templates or reusing existing projects. Originally created using all JQuery-created
+                     DOM elements. Later, I wanted to recreate it as a node.js app with pug and HTML equivalents, replacing the JQuery.
+                      All logic-checking code will be added soon. 
+                </p>
                 <h3 class="my-3">Project Details</h3>
                 <ul>
                     <li>node.js</li>
@@ -102,17 +97,17 @@
             </div>
             <div class="col-md-4" id = "ttproj">
                 <h3 class="my-3">Class Project</h3>
-                <p>  Disclaimer: This is a teamtreehouse.com course project. I did code the back end, and used the Project Details 
-                    items/techniques personally, but they were not my ideas/creativity. Included for evidence of recent learning 
-                    concepts exposure. Interesting project teaching the basics of storing user data in sessions/cookies and 
-                     authenticating users by comparing them to a database. Hosting this on heroku was not taught in this course
-                    but I did on my own because I wanted to show something else that I have learned how to do.</p>
+                <p>  This is a teamtreehouse.com course project. I coded the back end, and used the listed Project Details 
+                    items/techniques. This is included in my portfolio for evidence of recent learning 
+                    concepts exposure. <br>This was an interesting project teaching the basics of storing user data in sessions/cookies, 
+                    and authenticating users by comparing them to a database. Hosting this on heroku was not taught in this course.</p>
                 <h3 class="my-3">Project Details</h3>
                 <ul>
                     <li>node.js</li>
                     <li>express</li>
                     <li>pug</li>
                     <li>MongoDB</li>
+                    <li>Cookies/Sessions</li>
                     <li>bcrypt password hashing</li>
                     <li>user authentication</li>
                     <li>routing</li>
@@ -120,27 +115,22 @@
             </div>
             <div class="col-md-4" id = "mom">
                 <h3 class="my-3">Mother's Day Site</h3>
-                <p>First website I ever created and shared with anyone. I mostly have this here to see how far my WebDev has come 
-                    since May. No templates used, obviously, but still took a little bit. Sublime Text 3 was used and of 
-                    course Github.</p>
+                <p>First website I created and shared. This website shows how far my WebDev skills have come 
+                    since creating it for Mother's Day.</p>
                 <h3 class="my-3">Project Details</h3>
                 <ul>
                     <li>JQuery</li>
                     <li>JavaScript</li>
                     <li>GitHub</li>
-                    <li>Very Basic</li>
                 </ul>
             </div>
-            <div class="col-md-4" id = "lift">
-                <h3 class="my-3">405 Bench Press (testing code)</h3>
-                <p>This is going to be replaced later. Just giving images different text. Me bench pressing 405 pounds without a lift off. </p>
-                <h3 class="my-3">Project Details</h3>
+            <div class="col-md-4" id = "resume">
+                <h3 class="my-3">Résumé</h3>
+                <!-- <p></p>
+                <h3 class="my-3"></h3>
                 <ul>
-                    <li>405 lbs</li>
-                    <li>24" wrist wraps</li>
-                    <li>iPhone 6</li>
-                    <li>Clothing</li>
-                </ul>
+                    <li>MW 2016</li>
+                </ul> -->
             </div>
 
         </div>
@@ -166,7 +156,7 @@
 
             <div class="col-md-3 col-sm-6 mb-4">
                 <a href="#">
-                    <img class="img-fluid smaller" id = "lift" src="lift.PNG" alt="">
+                    <img class="img-fluid smaller" id = "resume" src="resume.png" alt="">
                 </a>
             </div>
             
@@ -180,7 +170,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-inverse">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+            <p class="m-0 text-center text-white"> <!-- bottom center footer --></p>
         </div>
         <!-- /.container -->
     </footer>
