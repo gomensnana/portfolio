@@ -10,6 +10,9 @@ var ttproj = "https://ttproj.herokuapp.com";
 $("img").click(function(){
     var $this = $(this);
 
+    if($this.attr("id") === "home"){
+        window.location = "https://gomensnana.github.io/portfolio/#";
+    }
 
     if($this.hasClass("larger")){
         if($this.attr("id") === "mom"){
